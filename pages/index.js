@@ -29,7 +29,8 @@ export default function Home() {
 
   return (
     <div className='data'>
-      <p>This page was rendered using api data from <a href="https://api.publicapis.org/entries" target="_blank" rel="noreferrer">https://api.publicapis.org/entries</a></p>
+      <p>This page was rendered using api data from <a href="https://api.publicapis.org/entries" target="_blank" rel="noreferrer">https://api.publicapis.org/entries</a> - MSAZ89</p>
+      <a href="https://github.com/MSAZ89/public-apis" target="_blank" rel="noreferrer">Github Link</a>
       {
         data.map((item) => {
           return(
